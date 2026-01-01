@@ -1,100 +1,151 @@
-<h1 align="center">Hi 👋, I'm Rahul Shome</h1>
-<h3 align="center">SDET | Test Automation Engineer | Selenium • Playwright • API Automation • AI-assisted QA</h3>
+# Playwright Automation Project
 
-<!-- ❌ Removed broken GitHub trophy image to fix "rahulshome121345" issue -->
+<h3 align="center">End-to-End Test Automation using Playwright</h3>
 
-- 🔭 I’m currently working on **AI-assisted test automation frameworks for Healthcare applications using Selenium, API automation, and CI/CD pipelines.**
+## 📋 Project Overview
 
-- 🌱 I’m currently learning **Playwright, MCP-based automation tools, and advanced AI-assisted testing workflows.**
+This repository contains comprehensive Playwright test automation scripts for end-to-end (E2E) testing. It demonstrates best practices for modern web application testing using Playwright's powerful features including XPath locators, CSS selectors, and advanced interaction patterns.
 
-- 👯 I’m looking to collaborate on **Test automation frameworks, AI-driven QA tools, and open-source utilities for improving test productivity.**
+## 🎯 Project Features
 
-- 🤝 I’m looking for help with **Advanced Playwright patterns, MCP-based browser automation, and scalable test architecture.**
+- **Multi-locator Strategy**: Supports XPath, CSS selectors, and Playwright locators
+- **Modular Test Structure**: Organized test files for different test scenarios
+- **Comprehensive Coverage**: Multiple test suites covering various UI interactions
+- **Configuration Management**: Centralized Playwright configuration
+- **HTML Reporting**: Automated test report generation
 
-- 📝 I regularly write articles on [linkedin.com/in/rahulshome01](https://linkedin.com/in/rahulshome01)
+## 📁 Project Structure
 
-- 💬 Ask me about **Selenium automation, API testing, Healthcare QA workflows, CI/CD integration, and AI-assisted test automation.**
+```
+Playwright Automation/
+├── tests/
+│   ├── mytest.spec.ts           # Main test suite
+│   ├── pwLocator.spec.ts        # Playwright locator examples
+│   └── xpathlocator.spec.ts     # XPath locator examples
+├── playwright.config.ts          # Playwright configuration
+├── package.json                  # Project dependencies
+├── playwright-report/            # Test reports
+└── README.md                      # Project documentation
+```
 
-- 📫 How to reach me **rahulshome828@gmail.com | LinkedIn: https://linkedin.com/in/rahulshome01**
+## 🚀 Getting Started
 
-- 📄 Know about my experiences [https://linkedin.com/in/rahulshome01](https://linkedin.com/in/rahulshome01)
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-- ⚡ Fun fact **I automate workflows using AI agents and MCP so humans only step in when it actually matters.**
+### Installation
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/rahulshome01" target="_blank">
-    <img
-      align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="LinkedIn"
-      height="30"
-      width="40"
-    />
-  </a>
-</p>
+```bash
+# Install dependencies
+npm install
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a>
-  <a href="https://www.jenkins.io" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-  </a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-  </a>
-  <a href="https://www.selenium.dev" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/detain/svg-logos/master/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
-  </a>
-  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-  </a>
-</p>
+# Install Playwright browsers
+npx playwright install
+```
 
-<p>
-  <img
-    align="left"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=rahulshome121345&show_icons=true&locale=en&layout=compact"
-    alt="Top Languages"
-  />
-</p>
+### Running Tests
 
-<p>
-  <img
-    align="center"
-    src="https://github-readme-stats.vercel.app/api?username=rahulshome121345&show_icons=true&locale=en"
-    alt="GitHub Stats"
-  />
-</p>
+```bash
+# Run all tests
+npx playwright test
+
+# Run specific test file
+npx playwright test tests/mytest.spec.ts
+
+# Run tests in headed mode
+npx playwright test --headed
+
+# Run tests in debug mode
+npx playwright test --debug
+
+# Run tests with specific browser
+npx playwright test --project=chromium
+npx playwright test --project=firefox
+npx playwright test --project=webkit
+```
+
+### Viewing Reports
+
+```bash
+# Generate and view HTML report
+npx playwright show-report
+```
+
+## 🛠️ Technologies Used
+
+- **Playwright**: Modern browser automation framework
+- **TypeScript**: Type-safe test code
+- **Node.js**: JavaScript runtime
+- **npm**: Package management
+
+## 📊 Test Locators
+
+The project demonstrates three primary locator strategies:
+
+### 1. XPath Locators (`xpathlocator.spec.ts`)
+- Dynamic element selection using XPath expressions
+- Complex hierarchical element targeting
+- Advanced xpath patterns and strategies
+
+### 2. CSS Selectors (`pwLocator.spec.ts`)
+- Fast and reliable CSS-based locators
+- Efficient element selection using CSS selectors
+- Pseudo-element and pseudo-class usage
+
+### 3. Playwright Locators (`pwLocator.spec.ts`)
+- Built-in Playwright locator engine
+- Modern locator strategies with automatic waiting
+- Improved reliability and maintainability
+
+## 📝 Test Documentation
+
+Refer to included PDF guides:
+- `playwright_locators_chart.pdf` - Complete locator reference
+- `playwright_cheatsheet.pdf` - Quick reference guide
+- `html_aria_roles_table.pdf` - ARIA roles reference
+
+## 🔧 Configuration
+
+The `playwright.config.ts` file contains configuration for:
+- Browser types (Chromium, Firefox, WebKit)
+- Test timeout and retry settings
+- Report generation options
+- Base URL and other environment settings
+
+## 📊 Test Reports
+
+After running tests, view the HTML report:
+```bash
+npx playwright show-report
+```
+
+Reports are generated in the `playwright-report/` directory.
+
+## 💡 Best Practices
+
+- Use explicit waits and proper locators
+- Follow the page object model pattern for complex tests
+- Use descriptive test names
+- Keep tests independent and isolated
+- Regularly update Playwright to latest version
+
+## 👤 Author
+
+**Rahul Shome** - SDET | Test Automation Engineer
+
+- Email: rahulshome828@gmail.com
+- LinkedIn: [linkedin.com/in/rahulshome01](https://linkedin.com/in/rahulshome01)
+- GitHub: [github.com/rahulshome121345](https://github.com/rahulshome121345)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
+---
+
+**Last Updated**: January 2026
