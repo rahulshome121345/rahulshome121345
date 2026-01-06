@@ -1,12 +1,15 @@
 <h1 align="center">Hi 👋, I'm Rahul Shome</h1>
 <h3 align="center">SDET | Test Automation Engineer | Selenium • Playwright • API Automation • AI-assisted QA</h3>
 
+<!--
 <p align="center">
   📄 <strong>Resume:</strong>
   <a href="https://github.com/rahulshome121345/rahul-shome-resume" target="_blank">
     Download PDF
   </a>
 </p>
+-->
+
 
 <!-- ❌ Removed broken GitHub trophy image to fix "rahulshome121345" issue -->
 
